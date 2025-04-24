@@ -7,6 +7,7 @@ RUN npm install
 
 COPY . .
 
+RUN npm install -g express
 RUN npm install -g nodemon
 
 EXPOSE 4000

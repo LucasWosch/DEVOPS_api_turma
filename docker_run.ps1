@@ -19,6 +19,7 @@ docker run -d `
   --network rede-faculdade `
   -p 4000:4000 `
   -v ${PWD}:/app `
+  -v /app/node_modules `
   api-turma
 
 Write-Host "Container iniciado com sucesso!"

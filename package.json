@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "api-turmas": "file:",
     "axios": "^1.8.4",
     "express": "^5.1.0"
   },
